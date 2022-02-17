@@ -4,7 +4,7 @@ Documentation     Orders robots from RobotSpareBin Industries Inc.
 ...               Creates ZIP archive of the images.
 Library           html_tables.py
 Library           RPA.Archive
-Library           RPA.Browser.Selenium    auto_close=${FALSE}
+Library           RPA.Browser.Selenium
 Library           RPA.HTTP
 Library           RPA.PDF
 Library           RPA.Tables
