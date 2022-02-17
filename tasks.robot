@@ -55,5 +55,5 @@ Order robots from RobotSpareBin Industries Inc
         Click Button    id:order-another
         Close the annoying modal
     END
-    Archive Folder With Zip    ${CURDIR}/output    archive.zip
+    Archive Folder With Zip    ${CURDIR}/output/screenshots    output/archive.zip
     [Teardown]    Close Browser
